@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+</head>
+<body>
+    <h1>Message Board Home Page</h1>
+    <ul>
+        {% for post in posts %}
+            <li>{{ post }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

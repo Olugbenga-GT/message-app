@@ -1,0 +1,1 @@
+web: gunicorn Pentagon.wsgi --log-file -
